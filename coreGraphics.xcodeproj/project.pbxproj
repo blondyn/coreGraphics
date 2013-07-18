@@ -19,6 +19,7 @@
 		9DBD436C1798105600124365 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DBD436A1798105600124365 /* MainStoryboard_iPhone.storyboard */; };
 		9DBD436F1798105600124365 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DBD436D1798105600124365 /* MainStoryboard_iPad.storyboard */; };
 		9DBD43721798105600124365 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DBD43711798105600124365 /* ViewController.m */; };
+		FEBDC263A47652403A449449 /* CoreGraphicsView.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBDC782D42B1316E4A42D9B /* CoreGraphicsView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,8 @@
 		9DBD436E1798105600124365 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		9DBD43701798105600124365 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		9DBD43711798105600124365 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FEBDC782D42B1316E4A42D9B /* CoreGraphicsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreGraphicsView.m; sourceTree = "<group>"; };
+		FEBDCF6D0F79809DFFEEEFA9 /* CoreGraphicsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreGraphicsView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +95,8 @@
 				9DBD43701798105600124365 /* ViewController.h */,
 				9DBD43711798105600124365 /* ViewController.m */,
 				9DBD43591798105600124365 /* Supporting Files */,
+				FEBDCF6D0F79809DFFEEEFA9 /* CoreGraphicsView.h */,
+				FEBDC782D42B1316E4A42D9B /* CoreGraphicsView.m */,
 			);
 			path = coreGraphics;
 			sourceTree = "<group>";
@@ -180,6 +185,7 @@
 				9DBD435F1798105600124365 /* main.m in Sources */,
 				9DBD43631798105600124365 /* AppDelegate.m in Sources */,
 				9DBD43721798105600124365 /* ViewController.m in Sources */,
+				FEBDC263A47652403A449449 /* CoreGraphicsView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
