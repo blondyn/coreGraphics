@@ -5,9 +5,10 @@
 //  Created by Mirosław Kucharzyk on 8/1/13.
 //  Copyright (c) 2013 Mirosław Kucharzyk. All rights reserved.
 //
-
+//http://api.snd.no/drMobileArticle?id=ap7265847#
 #import "CoreGraphicsTableViewController.h"
 #import "CoreGraphicsCellBackground.h"
+#import "CoreGraphicsHeader.h"
 
 @interface CoreGraphicsTableViewController ()
 
@@ -139,5 +140,16 @@
      [self.navigationController pushViewController:detailViewController animated:YES];
      */
 }
+
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
+    return 50;
+}
+
+- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
+    CoreGraphicsHeader *header = [[CoreGraphicsHeader alloc] init];
+    header.titleLabel.text = [self tableView:tableView titleForHeaderInSection:section];
+    return header;
+}
+
 
 @end
