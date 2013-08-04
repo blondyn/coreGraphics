@@ -9,6 +9,7 @@
 #import "CoreGraphicsTableViewController.h"
 #import "CoreGraphicsCellBackground.h"
 #import "CoreGraphicsHeader.h"
+#import "CoreGraphicsFooter.h"
 
 @interface CoreGraphicsTableViewController ()
 
@@ -149,6 +150,15 @@
     CoreGraphicsHeader *header = [[CoreGraphicsHeader alloc] init];
     header.titleLabel.text = [self tableView:tableView titleForHeaderInSection:section];
     return header;
+}
+
+- (UIView *)tableView:(UITableView *)tableView viewForFooterInSection:(NSInteger)section {
+    CoreGraphicsFooter *footer = [[CoreGraphicsFooter alloc] init];
+    return footer;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section {
+    return 30;
 }
 
 

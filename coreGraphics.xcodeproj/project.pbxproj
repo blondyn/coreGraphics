@@ -24,6 +24,7 @@
 		9DBD43721798105600124365 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DBD43711798105600124365 /* ViewController.m */; };
 		FEBDC263A47652403A449449 /* CoreGraphicsView.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBDC782D42B1316E4A42D9B /* CoreGraphicsView.m */; };
 		FEBDC3C595E77D86F9700BE4 /* CoreGraphicsCellBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBDC36715CCF57F43AA77C7 /* CoreGraphicsCellBackground.m */; };
+		FEBDC77F1A1965DE29DC6BE5 /* CoreGraphicsFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBDCFB8A3E6B587D085DE7E /* CoreGraphicsFooter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,8 @@
 		FEBDC782D42B1316E4A42D9B /* CoreGraphicsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreGraphicsView.m; sourceTree = "<group>"; };
 		FEBDCDB4B1300C39897250C6 /* CoreGraphicsCellBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreGraphicsCellBackground.h; sourceTree = "<group>"; };
 		FEBDCF6D0F79809DFFEEEFA9 /* CoreGraphicsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreGraphicsView.h; sourceTree = "<group>"; };
+		FEBDCFB8A3E6B587D085DE7E /* CoreGraphicsFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreGraphicsFooter.m; sourceTree = "<group>"; };
+		FEBDCFE50679D795D34F4593 /* CoreGraphicsFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreGraphicsFooter.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,8 @@
 				FEBDC782D42B1316E4A42D9B /* CoreGraphicsView.m */,
 				FEBDC36715CCF57F43AA77C7 /* CoreGraphicsCellBackground.m */,
 				FEBDCDB4B1300C39897250C6 /* CoreGraphicsCellBackground.h */,
+				FEBDCFB8A3E6B587D085DE7E /* CoreGraphicsFooter.m */,
+				FEBDCFE50679D795D34F4593 /* CoreGraphicsFooter.h */,
 			);
 			path = coreGraphics;
 			sourceTree = "<group>";
@@ -247,6 +252,7 @@
 				9D9B82E117AA7E7D008DCF01 /* CoreGraphicsTableViewController.m in Sources */,
 				FEBDC3C595E77D86F9700BE4 /* CoreGraphicsCellBackground.m in Sources */,
 				9D9B82E517ABD150008DCF01 /* CoreGraphicsHeader.m in Sources */,
+				FEBDC77F1A1965DE29DC6BE5 /* CoreGraphicsFooter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
